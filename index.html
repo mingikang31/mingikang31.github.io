@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Academic Portfolio</title>
+    <title>Mingi Kang - Academic Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -13,7 +13,7 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="profile">
-                <img src="profile.jpg" alt="Mingi Kang" class="profile-image">
+                <img src="public/images/headshot.jpg" alt="Mingi Kang" class="profile-image">
                 <h1 class="name">Mingi Kang</h1>
                 <p class="title">Computer Science</p>
                 <p class="institution">Bowdoin College</p>
@@ -33,8 +33,8 @@
             <div class="social-links">
                 <a href="mailto:mkang2@bowdoin.edu" class="social-link"><i class="fas fa-envelope"></i></a>
                 <a href="https://github.com/mingikang31" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/yourprofile" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="https://scholar.google.com/citations?user=yourprofile" class="social-link"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.linkedin.com/in/mingi-kang-40bb61254" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="https://scholar.google.com/citations?user=yourprofile" class="social-link"><i class="fas fa-graduation-cap"></i></a> -->
             </div>
         </aside>
 
@@ -43,16 +43,16 @@
             <!-- About Section -->
             <section id="about" class="section active">
                 <h2>About</h2>
-                <p>I am a rising senior at Bowdoin College planning to apply to Computer Science PhD programs this fall. My research interests include [your research areas]. I am passionate about [your specific interests].</p>
+                <p>I am a rising senior at Bowdoin College planning to apply to Computer Science PhD programs this fall.</p>
 
-                <p>Currently, I am working on <u>ConvNN: Convolutional Nearest Neighbors</u> under the supervision of Professor Jeova Farias. My work focuses on [brief description of your work].</p>
+                <p>Currently, I am working on <u>ConvNN: Convolutional Nearest Neighbors</u> under the supervision of Professor Jeova Farias. My work focuses on creating a novel algorithm that enhances spatial learning by incorporating norm-based <i>k</i>-NN pixel selection into standard convolution operations.</p>
 
                 <h3>Research Interests</h3>
                 <ul class="research-interests">
                     <li>Computer Vision</li>
                     <li>Computational Imaging</li>
                     <li>Natural Language Processing</li>
-                    <li>Human-Computer Interaction</li>
+                    <li>Machine Learning</li>
                 </ul>
                 
                 <h3>Education</h3>
@@ -84,24 +84,84 @@
                 <div class="research-grid">
 
                     <div class="research-item">
-                        <h3>Parallel MRI Reconstruction from 4x Accelerated Acquisitions.</h3>
-                        <p class="research-advisor">Advisor: Professor Ulugbek S. Kamilov, Shirin Shoushitari</p>
-                        <p class="research-description">Brief description of your research project, methodology, and findings.</p>
+                        <h3>Parallel qMRI Reconstruction from 4x Accelerated Acquisitions.</h3>
+                        <p class="research-location">Washington University in St. Louis - McKelvey School of Engineering</p>
+                        <p class="research-advisor">Advisor: Ulugbek S. Kamilov PhD, Shirin Shoushitari</p>
+                        <p class="research-description">Developed a 4x more parameter-efficient deep learning model for qMRI reconstruction, achieving performance (37 dB PNSR, 0.923 SSIM) on clinical datasets from Washington University Medical School.</p>
                         <div class="research-links">
-                            <a href="#" class="btn-link">Paper</a>
-                            <a href="#" class="btn-link">Code</a>
+                            <!-- <a href="./public/documents/MRI_Presentation.pdf" class="btn-link">Presentation</a>
+                            <a href="./public/documents/MRI_Poster.pdf" class="btn-link">Poster</a> -->
+                            <a href="https://github.com/mingikang31/MRI" class="btn-link">Code</a>
                         </div>
                     </div>
                     
                     <div class="research-item">
-                        <h3>ConvNN: Convolutional Nearest Neighbors</h3>
-                        <p class="research-advisor">Advisor: Professor Jeova Farias</p>
-                        <p class="research-description">Brief description of your second research project.</p>
+                        <h3>ConvNN Attention: Convolutional Nearest Neighbors Attention</h3>
+                        <p class="research-location">Bowdoin College</p>
+                        <p class="research-advisor">Advisor: Jeova Farias PhD</p>
+                        <p class="research-description">Developed the Convolutional Nearest Neighbors Attention algorithm, a new module for Transformers that boosts performance by combining <i>k</i>-NN selection with convolutional layers.</p>
                         <div class="research-links">
-                            <a href="#" class="btn-link">Paper</a>
-                            <a href="#" class="btn-link">Poster</a>
+                            <a href="#" class="btn-link">Paper(TBD)</a>
+                            <a href="#" class="btn-link">Paper(TBD)</a>
+                            <a href='https://github.com/mingikang31/Convolutional-Nearest-Neighbor-Attention' class="btn-link">Code</a>
                         </div>
                     </div>
+
+                    <div class="research-item">
+                        <h3>ConvNN: Convolutional Nearest Neighbors</h3>
+                        <p class="research-location">Bowdoin College</p>
+                        <p class="research-advisor">Advisor: Jeova Farias PhD</p>
+                        <p class="research-description">Created a new type of convolutional layer, ConvNN, that outperforms standard convolutions by dynamically sampling neighboring pixels to enhance spatial feature learning.</p>
+                        <div class="research-links">
+                            <a href="#" class="btn-link">Paper(TBD)</a>
+                            <a href="#" class="btn-link">Poster(TBD)</a>
+                            <a href='https://github.com/mingikang31/Convolutional-Nearest-Neighbor' class="btn-link">Code</a>
+                        </div>
+                    </div>
+
+                    <div class="research-item">
+                        <h3>Structure and process-level lexical interactions in memory search: A case study of individuals with cochlear implants and normal hearing</h3>
+                        <p class="research-location">Bowdoin College</p>
+                        <p class="research-advisor">Advisor: Abhilasha Kumar PhD</p>
+                        <p class="research-description">Combined verbal fluency experiments with computational modeling to analyze how semantic and phonological cues guide memory search in cochlear implant and neurotypical populations.</p>
+                        <div class="research-links">
+                            <a href="https://escholarship.org/uc/item/7vn9q9hh" class="btn-link">Paper</a>
+                            <a href="https://github.com/mingikang31/Lexicon-Lab/blob/main/Cochlear%20Project/Poster.pdf" class="btn-link">Poster</a>
+                            <a href="https://github.com/mingikang31/Lexicon-Lab/tree/main/Cochlear%20Project" class="btn-link">Code</a>
+                        </div>
+                    </div>
+
+                    <div class="research-item">
+                        <h3>Ungated Research</h3>
+                        <p class="research-location">Bowdoin College</p>
+                        <p class="research-advisor">Advisor: Martin Abel PhD</p>
+                        <p class="research-description">Architected and maintained a centralized, open-access platform to provide global researchers with working papers from leading economics journals.</p>
+                        <div class="research-links">
+                            <a href="https://ungated.research.bowdoin.edu/" class="btn-link">Website</a>
+                        </div>
+                    </div>
+
+                    <h3>Course Research Projects</h3>
+                    <div class="research-item">
+                        <h3>Breast Cancer Detection</h3>
+                        <p class="research-location">Acquincum Institute of Technology, Budapest, Hungary</p>
+                        <p class="research-advisor">Course: Data Science</p>
+                        <p class="research-description">Classifying breast cancer images as IDC-positive or IDC-negative using Convolutional Neural Networks (CNNs).</p>
+                        <div class="research-links">
+                            <a href="https://github.com/mingikang31/Breast-Cancer-Detection" class="btn-link">Code</a>
+                        </div>
+                    </div>
+
+                    <div class="research-item">
+                        <h3>Demographic Analysis and Morality Patterns in California Counties: A Linear Regression Approach</h3>
+                        <p class="research-location">Bowdoin College</p>
+                        <p class="research-advisor">Course: Statistics</p>
+                        <p class="research-description">Exploring the relationship between demographic factors and morality rates across California counties.</p>
+                        <div class="research-links">
+                            <a href="https://github.com/mingikang31/Demographic-and-Mortality-Patterns-in-California" class="btn-link">Code</a>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -110,23 +170,50 @@
                 <h2>Projects</h2>
                 <div class="projects-grid">
                     <div class="project-item">
-                        <h3>Project Title 1</h3>
-                        <p class="project-tech">Technologies: Python, TensorFlow, React</p>
-                        <p class="project-description">Description of your project and its impact.</p>
+                        <h3>Polar Shuttle</h3>
+                        <p class="project-tech">Technologies: Kotlin, Android Studio, Jetpack Compose, Hilt ViewModel, Coroutine, Google Maps API, Firebase</p>
+                        <p class="project-description">Android Application for tracking and requesting shuttle at Bowdoin College.</p>
                         <div class="project-links">
-                            <a href="#" class="btn-link">GitHub</a>
-                            <a href="#" class="btn-link">Demo</a>
+                            <a href="https://github.com/mingikang31/PolarShuttle" class="btn-link">GitHub</a>
                         </div>
                     </div>
                     
                     <div class="project-item">
-                        <h3>Project Title 2</h3>
-                        <p class="project-tech">Technologies: Java, Spring Boot, MySQL</p>
-                        <p class="project-description">Description of another project.</p>
+                        <h3>SiFT-v1.0</h3>
+                        <p class="project-tech">Technologies: Python, RSA Encryption, Key-Pair Generation, Cryptography</p>
+                        <p class="project-description">Simple File Transfer (SiFT) application with cryptographic protection for transferring files between devices.</p>
                         <div class="project-links">
-                            <a href="#" class="btn-link">GitHub</a>
+                            <a href="https://github.com/mingikang31/SiFT-v1.0" class="btn-link">GitHub</a>
                         </div>
                     </div>
+
+                    <div class="project-item">
+                        <h3>Academic Portfolio</h3>
+                        <p class="project-tech">Technologies: HTML, CSS, JavaScript</p>
+                        <p class="project-description">Academic Portfolio website.</p>
+                        <div class="project-links">
+                            <a href="https://mingikang31.github.io/" class="btn-link">Website</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Personal Website</h3>
+                        <p class="project-tech">Technologies: Typescript, Next.js, React.js, Supabase, Tailwind, Vercel, RAG, LLM, Vector Embeddings</p>
+                        <p class="project-description">Personal website showcasing my projects and skills.</p>
+                        <div class="project-links">
+                            <a href="https://mingikang31.vercel.app" class="btn-link">Website</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Meal Messenger</h3>
+                        <p class="project-tech">Technologies: Python, Selenium, Twilio API, Google Gemini, Web Scraping</p>
+                        <p class="project-description">Personal daily Bowdoin dining hall menu and AI recommendations notifier via SMS.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/mingikang31/MealMessenger" class="btn-link">GitHub</a>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -139,7 +226,6 @@
                         <h3>ConvNN: Convolutional Nearest Neighbors</h3>
                         <p class="authors">Farias J., <strong>Kang M.</strong></p>
                         <p class="venue">Working Paper, 2025</p>
-                        <p class="description">Brief description of the paper's contribution.</p>
                         <div class="publication-links">
                             <a href="#" class="btn-link">PDF</a>
                             <a href="#" class="btn-link">BibTeX</a>
@@ -150,15 +236,54 @@
                         <p class="authors">Kumar A.A., Kang M., Kronenberger W.G, Jones M.N., Pisoni D.</p>
 
                         <p class="venue">In Proceedings of the 46th Annual Meeting of the Cognitive Science Society (Vol. 46), 2024</p>
-                        <p class="description">Brief description of the paper's contribution.</p>
                         <div class="publication-links">
-                            <a href="#" class="btn-link">PDF</a>
-                            <a href="https://escholarship.org/uc/item/7vn9q9hh" class="btn-link">BibTeX</a>
+                            <a href="https://escholarship.org/uc/item/7vn9q9hh" class="btn-link">Paper</a>
                         </div>
                     </div>
                 </div>
 
-                <h3>Presentations</h3>
+                <h3>Oral Presentation</h3>
+                <div class="publication-item">
+                    <h3>ConvNN: Convolutional Nearest Neighbors</h3>
+                    <p class="authors">Farias J., <strong>Kang M.</strong></p>
+                    <p class="venue">Working Paper, 2025</p>
+                    <div class="publication-links">
+                        <a href="#" class="btn-link">PDF</a>
+                        <a href="#" class="btn-link">BibTeX</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <h3>Structures and process-level lexical interactions in memory search: A case study of individuals with cochlear
+                        implants and normal hearing.</h3>
+                    <p class="authors">Kumar A.A., Kang M., Kronenberger W.G, Jones M.N., Pisoni D.</p>
+
+                    <p class="venue">In Proceedings of the 46th Annual Meeting of the Cognitive Science Society (Vol. 46), 2024</p>
+                    <div class="publication-links">
+                        <a href="./public/documents/" class="btn-link">PDF</a>
+                    </div>
+                </div>
+                
+                <h3>Poster Presentation</h3>
+                <div class="publication-item">
+                    <h3>ConvNN: Convolutional Nearest Neighbors</h3>
+                    <p class="authors">Farias J., <strong>Kang M.</strong></p>
+                    <p class="venue">Working Paper, 2025</p>
+                    <div class="publication-links">
+                        <a href="#" class="btn-link">PDF</a>
+                        <a href="#" class="btn-link">BibTeX</a>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <h3>Structures and process-level lexical interactions in memory search: A case study of individuals with cochlear
+                        implants and normal hearing.</h3>
+                    <p class="authors">Kumar A.A., Kang M., Kronenberger W.G, Jones M.N., Pisoni D.</p>
+                
+                    <p class="venue">In Proceedings of the 46th Annual Meeting of the Cognitive Science Society (Vol. 46), 2024</p>
+                    <div class="publication-links">
+                        <a href="./public/documents/" class="btn-link">PDF</a>
+                    </div>
+                </div>
+
 
             </section>
 
@@ -170,7 +295,7 @@
                         <h3>Summer Engineering Research Fellowship</h3>
                         <p class="award-institution">Washington University in St. Louis</p>
                         <p class="award-year">May 2025</p>
-                        <p class="award-description">Awarded $7,200 to conduct 10-week full-time research with the Computational Imaging Group.</p>
+                        <p class="award-description">Awarded to conduct 10-week full-time research with the Computational Imaging Group.</p>
                     </div>
                     
                     <div class="award-item">
@@ -181,17 +306,17 @@
                     </div>
 
                     <div class="award-item">
-                        <h3>CRA Undergraduate Fund</h3>
+                        <h3>CRA Undergraduate Award</h3>
                         <p class="award-institution">Last Mile Education</p>
                         <p class="award-year">April 2025</p>
-                        <p class="award-description">Awarded $4,000 for supplemental assistance for summer research in computer science at Washington University in St. Louis.</p>
+                        <p class="award-description">Awarded for supplemental assistance for summer research in computer science at Washington University in St. Louis.</p>
                     </div>
 
                     <div class="award-item">
-                        <h3>NYC STEM Fund</h3>
+                        <h3>NYC STEM Award</h3>
                         <p class="award-institution">Last Mile Education</p>
                         <p class="award-year">March 2025</p>
-                        <p class="award-description">Funded $1,500 for device replacement.</p>
+                        <p class="award-description">Awarded for device replacement.</p>
                     </div>
 
                     <div class="award-item">
@@ -228,7 +353,7 @@
             <section id="cv" class="section">
                 <h2>Curriculum Vitae</h2>
                 <p>Download my full CV for detailed information about my academic and professional experience.</p>
-                <a href="cv.pdf" class="btn-primary" download>
+                <a href="./public/documents/cv.pdf" class="btn-primary" download>
                     <i class="fas fa-download"></i> Download CV (PDF)
                 </a>
             </section>
@@ -238,10 +363,14 @@
                 <h2>News</h2>
                 <div class="news-list">
                     <div class="news-item">
+                        <span class="news-date">August 2025</span>
+                        <p>Headed to Los Angeles to see family before senior year.</p>
+                    </div>
+                    <div class="news-item">
                         <span class="news-date">July 2025</span>
                         <p>Started preparing PhD applications for Fall 2026 cycle.</p>
                     </div>
-                    
+<!--                     
                     <div class="news-item">
                         <span class="news-date">June 2025</span>
                         <p>Presented research at [Conference Name].</p>
@@ -251,6 +380,23 @@
                         <span class="news-date">May 2025</span>
                         <p>Received [Award Name] for academic excellence.</p>
                     </div>
+
+                    <div class="news-item">
+                        <span class="news-date">July 2025</span>
+                        <p>Started preparing PhD applications for Fall 2026 cycle.</p>
+                    </div>
+
+                    <div class="news-item">
+                        <span class="news-date">June 2025</span>
+                        <p>Presented research at [Conference Name].</p>
+                    </div>
+
+                    <div class="news-item">
+                        <span class="news-date">May 2025</span>
+                        <p>Received [Award Name] for academic excellence.</p>
+                    </div> -->
+
+
                 </div>
             </section>
 
@@ -264,7 +410,7 @@
                     <p><i class="fas fa-phone"></i> +1 (818) 795 2054</p>
                 </div>
                 
-                <div class="contact-form">
+                <!-- <div class="contact-form">
                     <h3>Get in Touch</h3>
                     <form>
                         <input type="text" placeholder="Your Name" required>
@@ -272,7 +418,7 @@
                         <textarea placeholder="Your Message" rows="5" required></textarea>
                         <button type="submit" class="btn-primary">Send Message</button>
                     </form>
-                </div>
+                </div> -->
             </section>
         </main>
     </div>

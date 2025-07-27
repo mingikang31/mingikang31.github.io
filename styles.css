@@ -252,12 +252,15 @@ body {
 }
 
 .research-advisor,
+.research-location,
 .project-tech {
     color: #3498db;
     font-weight: 500;
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
+
+
 
 .research-description,
 .project-description {
