@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mingikang31
 
-repo_description_lines_max: 2
+repo_description_lines_max: 4
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mingikang31/Convolutional-Nearest-Neighbor  
+  - mingikang31/Convolutional-Nearest-Neighbor-Attention
+  - mingikang31/Convolutional-Nearest-Neighbor-Denoising
+  - mingikang31/MRI-Reconstruction
+  - mingikang31/ZiLU-Activation
+  - mingikang31/SiFT-v1.0
+  - mingikang31/PolarShuttle

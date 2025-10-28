@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Mingi Kang",
+    "label": "Undergraduate Researcher",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "mkang2@bowdoin.edu",
+    "phone": "(818) 795-2054",
+    "url": "https://mingikang31.github.io/",
+    "summary": "Undergraduate researcher in computer science, focusing on computer vision and deep learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "2nd Ave",
+      "postalCode": "CA 90019",
+      "city": "Los Angeles",
       "countryCode": "US",
       "region": "California"
     },
@@ -24,134 +24,232 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Computational Imaging Group, Washington University in St. Louis",
+      "position": "Undergraduate Researcher",
+      "startDate": "2025-06",
+      "endDate": "2025-08",
+      "summary": "Conducted research on convolutional neural networks (ConvNN) for image reconstruction and enhancement under the guidance of Professor Martin F. Abeles.",
+      "highlights": [
+        "PyTorch", "U-Net", "Attention-U-Net", "Computational Imaging"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Farias, Bowdoin College",
+      "position": "Research Assistant",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "ConvNN-Attention: Convolutional Nearest Neighbor Attention",
+      "highlights": [
+        "PyTorch", "KNN", "CNN", "Computer Vision", "Deep Learning"
+      ] 
+    },
+    {
+      "name": "Ungated Research, Bowdoin College",
+      "position": "Research Assistant",
+      "startDate": "2024-04",
+      "endDate": "2025-08",
+      "url": "https://ungated.research.bowdoin.edu/",
+      "summary": "Publicly available platform for working papers from economic journals.",
+      "highlights": [
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "CSS",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Computer Science Department, Bowdoin College",
+      "position": "Christenfeld Research Fellow",
+      "startDate": "2024-05",
+      "endDate": "2024-08",
+      "summary": "ConvNN: Convolutional Nearest Neighbor",
+      "highlights": [
+        "PyTorch", "KNN", "CNN", "Computer Vision", "Deep Learning"
+      ]
+    },
+    {
+      "name": "Lexicon Lab, Bowdoin College",
+      "position": "Research Assistant",
+      "startDate": "2022-12",
+      "endDate": "2024-05",
+      "summary": "Investigated semantic, phonological, and frequency-based influences on memory search in individuals with cochlear implants and normal hearing.",
+      "highlights": [
+        "Pandas",
+        "Numpy",
+        "Scikit-learn",
+        "Matplotlib"
+      ]
+    },
+    {
+      "name": "Bowdoin College Baldwin Center for Learning and Teaching, Princeton University",
+      "position": "Quantitative Reasoning Tutor",
+      "startDate": "2025-08",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": ["Mathematics", "Statistics", "Computer Science", "Economics"]
+    }, 
+    {
+      "name": "Computer Science Department, Bowdoin College",
+      "position": " Learning Assistant (LA) for CSCI 1101: Introduction to Computer Science",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "Serving as Learning Assistant (LA) for CSCI 1101: Introduction to Computer Science at Bowdoin College, assisting students in understanding fundamental programming concepts and problem-solving techniques.",
+      "highlights": ["Python", "OOP"]
+    },
+    {
+      "name": "Mathematics Department, Bowdoin College",
+      "position": " Learning Assistant (LA) for MATH 1300: Introduction to Statistics",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "Serving as Learning Assistant (LA) for MATH 1300: Introduction to Statistics at Bowdoin College, assisting students in understanding fundamental statistics concepts and data analysis techniques.",
+      "highlights": [
+        "R",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Bowdoin College Career Exploration and Development, Bowdoin College",
+      "position": "Sophomore Bootcamp Leader",
+      "startDate": "2025-01",
+      "summary": "",
+      "highlights": [
+        "Career Development", 
+        "Interview Preparation",
+        "Resume Building", 
+        "Networking Skills"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Bowdoin College, Maine, USA",
+      "location": "Brunswick, Maine, USA",
+      "url": "https://www.bowdoin.edu/",
+      "area": "Computer Science",
+      "studyType": "Undergraduate",
+      "startDate": "2022-08-30",
+      "endDate": "2026-05-20",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Artificial Intelligence", "Computational Game Theory", "Linear Algebra", "Multivariable Calculus", "Advanced Topics in Probability and Statistics"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Fall Research Award",
+      "date": "2025-10",
+      "awarder": "Bowdoin College",
+      "summary": "Awarded to support honors thesis research in computer vision and deep learning."
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Best Poster Presentation in the McKelvey Engineering Research Symposium",
+      "date": "2025-07",
+      "awarder": "Washington University in St. Louis - McKelvey School of Engineering",
+      "summary": "Awarded to the best poster presentation in the McKelvey Engineering Research Symposium for research in computational imaging."
+    }, 
+    {
+      "title": "McKelvey Engineering Summer Research Fellowship",
+      "date": "2025-05",
+      "awarder": "Washington University in St. Louis - McKelvey School of Engineering",
+      "summary": "Awardeded to conduct 10 week research with the Computational Imaging Group (CIG) at Washington University in St. Louis."
+    }, 
+    {
+      "title": "Allen B. Tucker Computer Science Research Prize",
+      "date": "2025-05",
+      "awarder": "Bowdoin College",
+      "summary": "Awarded to a computer science student for excellence in summer research."
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "CRA Undergraduate Award",
+      "date": "2025-04",
+      "awarder": "Last Mile Education",
+      "summary": "Awarded for supplemental funding for summer research at Washington University in St. Louis."
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
+      "title": "NYC STEM Award",
+      "date": "2025-03",
+      "awarder": "Last Mile Education",
+      "summary": "Awarded funds for new computer device."
+    }, 
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
+      "title": "Google AI Award",
+      "date": "2025-01",
+      "awarder": "Last Mile Education",
+      "summary": "Awarded funding to support 2025 research for ConvNN: Convolutional Nearest Neighbor."
+    }, 
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "Christenfeld Summer Research Fellowship",
+      "date": "2024-04",
+      "awarder": "Bowdoin College",
+      "summary": "Awardeded to conduct 8 week research on computer vision and deep learning."
+    }, 
+    {
+      "title": "NSF Student Faculty Research Grant Fellowship",
+      "date": "2024-01",
+      "awarder": "Bowdoin College, National Science Foundation",
+      "summary": "Awarded for cognitive science research focused on modeling search within the mental lexicon, involving the development and implementation of experiments and models related to memory search and retrieval under NSF-funded faculty mentorship."
+    }, 
+    {
+      "title": "QuestBridge National College Match Finalist",
+      "date": "2021-09",
+      "awarder": "QuestBridge",
+      "summary": "Recognized as a finalist for the QuestBridge National College Match."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Structures and process-level lexical interactions in memory search: A case study of individuals with cochlear implants and normal hearing",
+      "publisher": "In Proceedings of the 46th Annual Meeting of the Cognitive Science Society",
+      "publicationDate": "2024-04",
+      "url": "https://escholarship.org/uc/item/7vn9q9hh",
+      "summary": "Searching through memory is mediated by complex interactions between the underlying mental lexicon and the processes that operate on this lexicon. However, these interactions are difficult to study due to the effortless manner in which neurotypical individuals perform cognitive tasks."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Programming Languages",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "R", 
+        "JavaScript",
+        "TypeScript",
+        "Kotlin",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Machine/Deep Learning & Data Science",
+      "icon": "fa-solid fa-cubes",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Keras",
+        "Numpy", 
+        "Pandas", 
+        "Scikit-learn",
+        "Matplotlib",
+        "OpenCV"
+      ]
+    },
+    {
+      "name": "Tools and Platforms",
+      "icon": "fa-solid fa-toolbox",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "AWS",
+        "Jupyter Notebooks",
+        "Google Colab",
+        "Visual Studio Code"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Korean",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -159,42 +257,62 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    }, 
+    {
+      "language": "German",
+      "fluency": "Intermediate",
+      "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Computer Science",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Computer Vision",
+        "Deep Learning",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Natural Language Processing", 
+        "Computational Imaging"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Professor Jeova Farias",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Assistant Professor of Computer Science at Bowdoin College."
     },
     {
-      "name": "Professor John Doe",
+      "name": "Professor Abhilasha Kumar",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Assistant Professor of Psychology at Bowdoin College."
+    },
+    {
+      "name": "Professor Martin Abel",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Assistant Professor of Economics at Bowdoin College."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Polar Shuttle",
+      "summary": "PolarShuttle is a mobile application designed to track real-time shuffle schedulers specifically for Bowdoin College's shuttle service. ",
+      "highlights": ["Kotlin", "Hilt", "ORM", "ROOM", "Google Maps API", "ViewModel", "Jetpack Compose", "Firebase", "Coroutines", "Android Studio"],
+      "url": "https://github.com/mingikang31/PolarShuttle"
+    },
+    {
+      "name": "SiFT-v1.0",
+      "summary": "SiFT: Simple File Transfer is a secure file transfer system designed to allow clients to perform file operations on a server remotely.",
+      "highlights": ["Cryptography", "Key-Pair Generation", "RSA Encryption", "Python"],
+      "url": "https://github.com/mingikang31/SiFT-v1.0"
+    },
+    {
+      "name": "MealMessenger",
+      "summary": "MealMessenger is a service that sends daily Bowdoin dining hall menus via SMS to students.",
+      "highlights": ["Selenium", "BeautifulSoup", "Twilio API", "Python", "Google Gemini", "Web Scraping"],
+      "url": "https://github.com/mingikang31/MealMessenger"
     }
   ]
 }

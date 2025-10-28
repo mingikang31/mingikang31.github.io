@@ -2,31 +2,46 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Mingi Kang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 31th May 2003
     - name: Languages
-      value: English, German
+      value: English, Korean, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Arts in Computer Science
+      institution: Bowdoin College, Brunswick, Maine, USA
+      year: 2026
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
+        - title: Computer Science Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Artificial Intelligence
+            - Data Structures
+            - Algorithms 
+            - Computer Systems
+            - Software Engineering 
+            - Computational Game Theory
+            - Computational Creativity
+        - title: Mathematics Courses
+          contents:
+            - Linear Algebra
+            - Multivariable Calculus
+            - Probability
+            - Statistics
+            - Mathematical Reasoning (Discrete Math) 
+            - Advanced Topics in Probability and Statistics
+    - title: Study Abroad Semester
+      institution: Aquincum Institute of Technology, Budapest, Hungary
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Courses: Mobile Software Engineering, Cryptography, Data Science
+    - title: High School Diploma
+      institution: Crescenta Valley High School, La Crescenta, California, USA
+      year: 2022
 
 - title: Experience
   type: time_table
