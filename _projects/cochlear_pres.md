@@ -9,15 +9,7 @@ related_publications: True
 ---
 
 Presented at CogSci 2024, the 46th Annual Meeting of the Cognitive Science Society.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cochlear/full_poster.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Cochlear Project Poster 
-</div>
+<iframe src="/assets/pdf/cochlear-poster.pdf" width="100%" height="900px"></iframe>
 
 This was the first time I've ever traveled to present at a conference and travel to europe. 
 

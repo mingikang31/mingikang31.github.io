@@ -19,17 +19,17 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 4 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: False
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 I am an undergraduate senior at Bowdoin College majoring in Computer Science and Mathematics. My research interests include computer vision, computational imaging, natural language processing, and machine learning. 
 
-My recent work includes medical image reconstruction using supervised learning for accelerated MRI scans, developing Convolutional Nearest Neighbor (ConvNN) operators that replace fixed-grid convolution with adaptive k-NN sampling for global context aggregation in neural networks. 
+My recent work includes medical image reconstruction using supervised learning for accelerated MRI scans, developing Convolutional Nearest Neighbor (ConvNN) operators that replace fixed-grid convolution with adaptive k-NN sampling for global context aggregation in neural networks, and researching a novel activation function for deep learning models.  
 
 
 
