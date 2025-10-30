@@ -37,21 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -419,11 +405,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/example/";
             },},{id: "news-headed-to-los-angeles-for-my-older-sister-s-white-coat-ceremony-at-usc-keck-school-of-medicine",
           title: 'Headed to Los Angeles for my older sister’s white coat ceremony at USC...',
           description: "",
@@ -433,11 +414,17 @@ ninja.data = [{
           section: "News",},{id: "news-accepted-into-ieee-mit-undergraduate-research-technology-conference-2025-for-poster-presentation-on-convnn-convolutional-nearest-neighbors",
           title: 'Accepted into IEEE MIT Undergraduate Research Technology Conference 2025 for poster presentation on...',
           description: "",
-          section: "News",},{id: "projects-nsf-grfp-statements",
-          title: 'NSF GRFP Statements',
-          description: "with background image",
+          section: "News",},{id: "news-been-awarded-fall-research-award-from-bowdoin-college-for-fall-2025-semester-funded-by-john-l-roberts-fund",
+          title: 'Been awarded Fall Research Award from Bowdoin College for Fall 2025 semester funded...',
+          description: "",
+          section: "News",},{id: "news-finished-writing-a-technical-report-on-parallel-qmri-reconstruction-from-4x-accelerated-project-from-summer-2025-wusef-at-washu-pdf-here",
+          title: 'Finished writing a technical report on Parallel qMRI Reconstruction from 4x Accelerated project...',
+          description: "",
+          section: "News",},{id: "projects-cochlear-project",
+          title: 'Cochlear Project',
+          description: "Memory Search in Individuals With Cochlear Implants",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/cochlear/";
             },},{id: "projects-cogsci-2024-poster",
           title: 'CogSci 2024 Poster',
           description: "Structure and process-level lexical interactions in memory search-a case study of individuals with cochlear implants and normal hearing",
@@ -458,9 +445,14 @@ ninja.data = [{
           description: "Convolutional Nearest Neighbor for Neural Networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn_pres/";
+            },},{id: "projects-nsf-grfp-statements",
+          title: 'NSF GRFP Statements',
+          description: "Personal and Research Statements for NSF GRFP 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nsf/";
             },},{id: "projects-mri-reconstruction",
           title: 'MRI Reconstruction',
-          description: "Parallel qMRI Reconstruction from 4x Accelerated Acquisitions",
+          description: "Reconstructing 4x Accelerated qMRI Acquisitions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/qmri/";
             },},{id: "projects-washu-summer-2025-poster-amp-slides",
@@ -468,9 +460,14 @@ ninja.data = [{
           description: "Parallel qMRI Reconstruction from 4x Accelerated Acquisitions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/qmri_pres/";
+            },},{id: "projects-qmri-technical-report",
+          title: 'qMRI Technical Report',
+          description: "Last Revised on October 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/qmri_writing/";
             },},{id: "projects-ungated-research",
           title: 'Ungated Research',
-          description: "https://ungated.research.bowdoin.edu/",
+          description: "Public Platform for Economics Working Papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ungated/";
             },},{
