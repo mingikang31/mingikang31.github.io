@@ -17,18 +17,25 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-research",
-          title: "Research",
-          description: "Research Projects",
+          title: "research",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-github-repos",
-          title: "GitHub Repos",
+        },{id: "nav-repos",
+          title: "repos",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -57,17 +64,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -290,17 +286,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
       },{id: "post-a-post-with-redirect",
         
           title: "a post with redirect",
@@ -414,60 +399,46 @@ ninja.data = [{
           section: "News",},{id: "news-accepted-into-ieee-mit-undergraduate-research-technology-conference-2025-for-poster-presentation-on-convnn-convolutional-nearest-neighbors",
           title: 'Accepted into IEEE MIT Undergraduate Research Technology Conference 2025 for poster presentation on...',
           description: "",
-          section: "News",},{id: "news-been-awarded-fall-research-award-from-bowdoin-college-for-fall-2025-semester-funded-by-john-l-roberts-fund",
-          title: 'Been awarded Fall Research Award from Bowdoin College for Fall 2025 semester funded...',
+          section: "News",},{id: "news-awarded-fall-research-award-from-bowdoin-college-for-fall-2025-semester-funded-by-john-l-roberts-fund",
+          title: 'Awarded Fall Research Award from Bowdoin College for Fall 2025 semester funded by...',
           description: "",
           section: "News",},{id: "news-finished-writing-a-technical-report-on-parallel-qmri-reconstruction-from-4x-accelerated-project-from-summer-2025-wusef-at-washu-pdf-here",
           title: 'Finished writing a technical report on Parallel qMRI Reconstruction from 4x Accelerated project...',
           description: "",
+          section: "News",},{id: "news-paper-on-attention-via-convolutional-nearest-neighbors-convnn-is-now-available-on-arxiv-here",
+          title: 'Paper on Attention Via Convolutional Nearest Neighbors (ConvNN) is now available on arXiv:...',
+          description: "",
+          section: "News",},{id: "news-featured-on-bowdoin-college-s-news-for-senior-honors-project-here",
+          title: 'Featured on Bowdoin College’s News for senior honors project: here.',
+          description: "",
           section: "News",},{id: "projects-cochlear-project",
           title: 'Cochlear Project',
-          description: "Memory Search in Individuals With Cochlear Implants",
+          description: "Structure and Process-Level Lexical Interactions in Memory Search",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cochlear/";
-            },},{id: "projects-cogsci-2024-poster",
-          title: 'CogSci 2024 Poster',
-          description: "Structure and process-level lexical interactions in memory search-a case study of individuals with cochlear implants and normal hearing",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/cochlear_pres/";
-            },},{id: "projects-convnn-attn",
-          title: 'ConvNN-Attn',
-          description: "Convolutional Nearest Neighbor Attention for Vision Transformers &amp; Transformers",
+            },},{id: "projects-convnn-attention",
+          title: 'ConvNN-Attention',
+          description: "Convolutional Nearest Neighbor Attention (ConvNN-Attention) for Transformers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn-attn/";
             },},{id: "projects-convnn",
           title: 'ConvNN',
-          description: "Convolutional Nearest Neighbor for Neural Networks",
+          description: "Convolutional Nearest Neighbor (ConvNN) for Neural Networks",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn/";
-            },},{id: "projects-mit-urtc-2025-poster",
-          title: 'MIT URTC 2025 Poster',
-          description: "Convolutional Nearest Neighbor for Neural Networks",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/convnn_pres/";
             },},{id: "projects-nsf-grfp-statements",
           title: 'NSF GRFP Statements',
-          description: "Personal and Research Statements for NSF GRFP 2025",
+          description: "Research Plan and Personal Statement for NSF Graduate Research Fellowship Program (GRFP) 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/nsf/";
-            },},{id: "projects-mri-reconstruction",
-          title: 'MRI Reconstruction',
-          description: "Reconstructing 4x Accelerated qMRI Acquisitions",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/qmri/";
-            },},{id: "projects-washu-summer-2025-poster-amp-slides",
-          title: 'WashU Summer 2025 Poster &amp;amp; Slides',
+            },},{id: "projects-parallel-qmri-reconstruction",
+          title: 'Parallel qMRI Reconstruction',
           description: "Parallel qMRI Reconstruction from 4x Accelerated Acquisitions",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/qmri_pres/";
-            },},{id: "projects-qmri-technical-report",
-          title: 'qMRI Technical Report',
-          description: "Last Revised on October 2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/qmri_writing/";
+              window.location.href = "/projects/qmri/";
             },},{id: "projects-ungated-research",
           title: 'Ungated Research',
-          description: "Public Platform for Economics Working Papers",
+          description: "Public Web Platform for Economics Working Papers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ungated/";
             },},{
@@ -490,13 +461,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/mingi-kang-40bb61254", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=XV6ScDYAAAAJ", "_blank");
         },
       },{
         id: 'social-spotify',
