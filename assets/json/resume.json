@@ -15,20 +15,16 @@
       "region": "California"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
+      {}
     ]
   },
   "work": [
     {
       "name": "Computational Imaging Group, Washington University in St. Louis",
-      "position": "Undergraduate Researcher",
+      "position": "Summer Research Fellow",
       "startDate": "2025-06",
       "endDate": "2025-08",
-      "summary": "Conducted research on convolutional neural networks (ConvNN) for image reconstruction and enhancement under the guidance of Professor Martin F. Abeles.",
+      "summary": "Conducted research on qMRI reconstruction using deep learning techniques with the Computational Imaging Group (CIG) at Washington University in St. Louis.",
       "highlights": [
         "PyTorch", "U-Net", "Attention-U-Net", "Computational Imaging"
       ]
@@ -38,7 +34,7 @@
       "position": "Research Assistant",
       "startDate": "2025-01",
       "endDate": "Present",
-      "summary": "ConvNN-Attention: Convolutional Nearest Neighbor Attention",
+      "summary": "ConvNN-Attention: Convolutional Nearest Neighbor Attention for Transformers",
       "highlights": [
         "PyTorch", "KNN", "CNN", "Computer Vision", "Deep Learning"
       ] 
@@ -49,7 +45,7 @@
       "startDate": "2024-04",
       "endDate": "2025-08",
       "url": "https://ungated.research.bowdoin.edu/",
-      "summary": "Publicly available platform for working papers from economic journals.",
+      "summary": "Public platform for working papers from leading economic journals.",
       "highlights": [
         "React.js",
         "Node.js",
@@ -63,7 +59,7 @@
       "position": "Christenfeld Research Fellow",
       "startDate": "2024-05",
       "endDate": "2024-08",
-      "summary": "ConvNN: Convolutional Nearest Neighbor",
+      "summary": "ConvNN: Convolutional Nearest Neighbor for Neural Networks",
       "highlights": [
         "PyTorch", "KNN", "CNN", "Computer Vision", "Deep Learning"
       ]
@@ -82,7 +78,7 @@
       ]
     },
     {
-      "name": "Bowdoin College Baldwin Center for Learning and Teaching, Princeton University",
+      "name": "Bowdoin College Baldwin Center for Learning and Teaching",
       "position": "Quantitative Reasoning Tutor",
       "startDate": "2025-08",
       "endDate": "Present",
@@ -112,7 +108,7 @@
       "name": "Bowdoin College Career Exploration and Development, Bowdoin College",
       "position": "Sophomore Bootcamp Leader",
       "startDate": "2025-01",
-      "summary": "",
+      "summary": "Advise sophomore college students on career development through workshops and bootcamps.",
       "highlights": [
         "Career Development", 
         "Interview Preparation",
@@ -123,15 +119,43 @@
   ],
   "education": [
     {
+      "institution": "Aquincum Institute of Technology, Budapest, Hungary",
+      "location": "Budapest, Hungary",
+      "url": "https://cs.ait-budapest.com/",
+      "area": "Computer Science",
+      "studyType": "Fall Abroad Program",
+      "startDate": "2024-08", 
+      "endDate": "2024-12", 
+      "courses": [
+        "Cryptography", 
+        "Mobile Software Engineering", 
+        "Data Science"
+      ]
+    },
+    {
       "institution": "Bowdoin College, Maine, USA",
       "location": "Brunswick, Maine, USA",
       "url": "https://www.bowdoin.edu/",
-      "area": "Computer Science",
+      "area": "Computer Science and Mathematics",
       "studyType": "Undergraduate",
       "startDate": "2022-08-30",
-      "endDate": "2026-05-20",
+      "endDate": "Present",
       "score": "10",
-      "courses": ["Artificial Intelligence", "Computational Game Theory", "Linear Algebra", "Multivariable Calculus", "Advanced Topics in Probability and Statistics"]
+      "courses": [
+        "Artificial Intelligence",
+        "Computational Game Theory",
+        "Computer Systems",
+        "Software Engineering",
+        "Data Structures",
+        "Algorithms",
+        "Computational Creativity",
+        "Probability",
+        "Statistics",
+        "Mathematical Reasoning",
+        "Linear Algebra",
+        "Multivariable Calculus",
+        "Advanced Topics in Probability and Statistics"
+      ]
     }
   ],
   "awards": [

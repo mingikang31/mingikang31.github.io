@@ -192,6 +192,11 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
+      {% if entry.tldr %}
+        <a class="tldr btn btn-sm z-depth-0" role="button">
+          {%- if entry.tldr_name %}{{ entry.tldr_name }}{% else %}TL;DR{% endif -%}
+        </a>
+      {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
@@ -337,6 +342,13 @@
           {% endif %}
         </div>
       {% endif %}
+    {% endif %}
+
+    {% if entry.tldr %}
+      <!-- Hidden TLDR block -->
+      <div class="tldr hidden d-print-inline">
+        <p>{{ entry.tldr | markdownify }}</p>
+      </div>
     {% endif %}
 
     {% if entry.award %}

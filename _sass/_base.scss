@@ -811,6 +811,9 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+        a.tdlr.btn {
+          border-color: var(--global-highlight-color);
+        }
       }
 
       .badges {
@@ -867,6 +870,12 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+    }
+    div.tldr.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.tldr.hidden.open {
+      border-color: var(--global-highlight-color);
     }
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);

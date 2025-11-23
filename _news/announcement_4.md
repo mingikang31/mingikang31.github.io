@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Been awarded Fall Research Award from Bowdoin College for Fall 2025 semester funded by John L. Roberts Fund. 
+Awarded Fall Research Award from Bowdoin College for Fall 2025 semester funded by John L. Roberts Fund. 

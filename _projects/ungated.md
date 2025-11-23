@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Ungated Research
-description: Public Platform for Economics Working Papers
+description: Public Web Platform for Economics Working Papers
 img: assets/img/ungated/icon.png
-importance: 3
-category: projects
+importance: 5
+category: Research Projects
 related_publications: False
 ---
 
 [Visit Ungated Research](https://ungated.research.bowdoin.edu/)
 
+### TL;DR
 Ungated Research aims to increase accessibility to economics research by providing a free, centralized database of working papers from top journals, complete with AI-generated summaries to serve as a starting point for deeper engagement.

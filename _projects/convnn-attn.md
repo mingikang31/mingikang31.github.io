@@ -1,11 +1,15 @@
 ---
 layout: page
-title: ConvNN-Attn
-description: Convolutional Nearest Neighbor Attention for Vision Transformers & Transformers
+title: ConvNN-Attention
+description: Convolutional Nearest Neighbor Attention (ConvNN-Attention) for Transformers
 img: assets/img/convnn/icon-attn.png
 importance: 1
-category: projects
+category: Research Projects
 related_publications: false
 ---
 ### TL;DR
-Implemented Convolutional Nearest Neighbor Attention (ConvNN-Attn) mechanism in Vision Transformers (ViTs) and standard Transformers, achieving improved performance on image classification and language modeling tasks.
+Convolutional Nearest Neighbor Attention (ConvNN-Attention) is a novel attention mechanism that combines convolutional operations with nearest neighbor search to enhance the performance of Transformer models in both vision and language tasks. 
+
+### Paper 
+The paper on **Attention Via Convolutional Nearest Neighbors** is available on arXiv: <a href="https://arxiv.org/abs/2511.14137" target="_blank">here</a>.
+

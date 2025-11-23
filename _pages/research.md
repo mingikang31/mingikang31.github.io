@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Research
+title: research
 permalink: /research/
-description: Research Projects
 nav: true
-nav_order: 2
-display_categories: [projects, presentations, writing samples]
+nav_order: 3
+display_categories: [Research Projects, Writing Samples]
 horizontal: false
 ---
 
@@ -15,7 +14,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category" style="color: black;">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

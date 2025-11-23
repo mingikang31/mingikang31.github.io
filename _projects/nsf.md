@@ -1,13 +1,20 @@
 ---
 layout: page
 title: NSF GRFP Statements
-description: Personal and Research Statements for NSF GRFP 2025
+description: Research Plan and Personal Statement for NSF Graduate Research Fellowship Program (GRFP) 2025
 img: assets/img/etc/nsf.png
 importance: 2
-category: writing samples
+category: Writing Samples
 related_publications: false
 ---
+### Graduate Research Plan Statement (2025)
+<div class="row justify-content-sm-center">
+    <iframe src="/assets/pdf/nsf-research.pdf" width="75%" height="730px"></iframe>
+</div>
 
-NSF GRFP Personal, Previous Research, and Graduate Statements
+<br>
 
-**Will be posted after application cycle concludes in Spring 2026.**
+### Personal Statement (2025)
+<div class="row justify-content-sm-center">
+    <iframe src="/assets/pdf/nsf-personal.pdf" width="75%" height="730px"></iframe>
+</div>
