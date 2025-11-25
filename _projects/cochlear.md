@@ -15,9 +15,7 @@ Investigated structure and process-level lexical interactions in memory search a
 Searching through memory is mediated by complex interactions between the underlying mental lexicon and the processes that operate on this lexicon. However, these interactions are difficult to study due to the effortless manner in which neurotypical individuals perform cognitive tasks. In this work, we examine these interactions within a sample of prelingually deaf individuals with cochlear implants and normal hearing individuals who were administered the verbal fluency task for the "animals" category. Specifically, we tested how different candidates for underlying mental lexicons and processes account for search behavior within the verbal fluency task across the two groups. The models learned semantic representations from different combinations of textual (word2vec) and speech-based (speech2vec) information. The representations were then combined with process models of memory search based on optimal foraging theory that incorporate different lexical sources for transitions within and between clusters of items produced in the fluency task. Our findings show that semantic, word frequency, and phonological information jointly influence search behavior and highlight the delicate balance of different lexical sources that produces successful search outcomes.
 
 ### Paper
-**Structure and process-level lexical interactions in memory search-a case study of individuals with cochlear implants and normal hearing**, Cognitive Science Society 2024.
-
-<a href="https://escholarship.org/uc/item/7vn9q9hh/">View on eScholarship</a>
+Paper on **Structure and process-level lexical interactions in memory search-a case study of individuals with cochlear implants and normal hearing**, Cognitive Science Society 2024: <a href="https://escholarship.org/uc/item/7vn9q9hh/">View on eScholarship</a>
 
 <div class="row justify-content-sm-center">
     <iframe src="/assets/pdf/cochlear-paper.pdf" width="75%" height="900px"></iframe>

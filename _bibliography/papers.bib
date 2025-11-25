@@ -26,6 +26,23 @@
   poster = {convnn-poster.pdf},
 }
 
+@misc{kang2025parallelqmrireconstruction4x,
+  abbr          = {arXiv}, 
+  bibtex_show   = {true},
+  title         = {Parallel qMRI Reconstruction from 4x Accelerated Acquisitions},
+  author        = {Mingi Kang},
+  year          = {2025},
+  eprint        = {2511.18232},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CV},
+  url           = {https://arxiv.org/abs/2511.18232}, 
+  arxiv={2511.18232}, 
+  abstract = {
+  Magnetic Resonance Imaging (MRI) acquisitions require extensive scan times, limiting patient throughput and increasing susceptibility to motion artifacts. Accelerated parallel MRI techniques reduce acquisition time by undersampling k-space data, but require robust reconstruction methods to recover high-quality images. Traditional approaches like SENSE require both undersampled k-space data and pre-computed coil sensitivity maps. We propose an end-to-end deep learning framework that jointly estimates coil sensitivity maps and reconstructs images from only undersampled k-space measurements at 4x acceleration. Our two-module architecture consists of a Coil Sensitivity Map (CSM) estimation module and a U-Net-based MRI reconstruction module. We evaluate our method on multi-coil brain MRI data from 10 subjects with 8 echoes each, using 2x SENSE reconstructions as ground truth. Our approach produces visually smoother reconstructions compared to conventional SENSE output, achieving comparable visual quality despite lower PSNR/SSIM metrics. We identify key challenges including spatial misalignment between different acceleration factors and propose future directions for improved reconstruction quality.
+  },
+  poster = {qMRI-poster.pdf},
+}
+
 @inproceedings{Kumar2024Structure,
   abbr      = {CogSci},
   bibtex_show   = {true},

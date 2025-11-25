@@ -10,13 +10,8 @@ related_publications: False
 ### TL;DR
 This project enhances the SPICER framework by applying a supervised learning approach to clinical qMRI datasets from Washington University School of Medicine. By redesigning the original Deep Unfolding architecture into streamlined, non-cascading U-Net and Attention U-Net models with automatic coil sensitivity estimation, we achieved a 4x reduction in parameters. Furthermore, we developed novel normalization techniques (ACS region-specific and coil-instance) for under-sampled k-space data, resulting in high-fidelity reconstructions with 37 dB PSNR and 0.923 SSIM from 4x accelerated acquisitions.
 
-### Technical Report 
-Technical report on **Parallel qMRI reconstruction from 4x accelerated acquisitions** from Washington University in St. Louis Summer Engineering Fellowship (WUSEF) 2025.
-<div class="row justify-content-sm-center">
-    <iframe src="/assets/pdf/qMRI-paper.pdf" width="75%" height="900px"></iframe>
-</div>
-
-<br>
+### Paper
+The paper on **Parallel qMRI Reconstruction from 4x Accelerated Acquisitions** is available on arXiv: <a href="https://arxiv.org/abs/2511.18232" target="_blank">here</a>.
 
 ### Presentation & Poster
 Presented at McKelvey School of Engineering Poster Palooza and Washington University Summer Research Symposium on July 2025. Awarded Best Poster Presentation at Poster Palooza. 
@@ -36,7 +31,7 @@ Presented at McKelvey School of Engineering Poster Palooza and Washington Univer
     </div>
 </div>
 <div class="caption">
-    Washu Summer Research Presentation on qMRI Reconstruction
+    Washu Summer Research Presentation
 </div>
 
 Here are some photos from the summer in St. Louis! 
