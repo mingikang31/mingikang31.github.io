@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: False
@@ -28,8 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an undergraduate senior at Bowdoin College majoring in Computer Science and Mathematics. My research interests include computer vision, computational imaging, machine learning, and natural language processing. I am passionate about developing algorithms and model architecture for deep learning with efficiency and interpretability in mind.
+I am a senior at Bowdoin College, double majoring in Computer Science and a minor in Mathematics. My research lies at the intersection of computer vision, computational imaging, and machine learning. I am particularly passionate about designing deep learning algorithms and architectures that prioritize both efficiency and interpretability.
 
-My recent work includes medical image reconstruction using supervised learning for accelerated MRI scans, developing Convolutional Nearest Neighbor (ConvNN) operators that replace fixed-grid convolution with adaptive k-NN sampling for global context aggregation in neural networks, and researching a novel activation function for deep learning models.  
+My recent work focuses on three main areas: accelerating MRI reconstruction using supervised learning, investigating novel activation functions, and developing **ConvNN**, a framework that replaces fixed-grid convolutions with adaptive k-NN sampling to improve global context aggregation in neural networks.
 
-Besides research, I enjoy snowboarding, playing basketball, exploring new cafes, and cooking. I have an older sister at USC Keck School of Medicine. I am a huge fan of the St. Louis Cardinals, Los Angeles Dodgers, and Boston Celtics. Please feel free to reach out if you would like to connect!
+Outside of research, I enjoy snowboarding, basketball, cooking, and exploring new cafes. I am also a proud brother to a medical student sister at USC Keck and a dedicated fan of the St. Louis Cardinals, LA Dodgers, and Boston Celtics. Please feel free to reach out if you would like to connect!

@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Accepted into IEEE MIT Undergraduate Research Technology Conference 2025 for poster presentation on ConvNN: Convolutional Nearest Neighbors.
+Accepted into IEEE MIT Undergraduate Research Technology Conference 2025 for abstract/poster presentation on Convolutional Nearest Neighbors.
 
