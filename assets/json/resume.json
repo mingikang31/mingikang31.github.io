@@ -8,225 +8,261 @@
     "url": "https://mingikang31.github.io/",
     "summary": "Undergraduate researcher in computer science, focusing on computer vision and deep learning.",
     "location": {
-      "address": "2nd Ave",
-      "postalCode": "CA 90019",
-      "city": "Los Angeles",
+      "address": "2141 Smith Union",
+      "postalCode": "04011",
+      "city": "Brunswick",
       "countryCode": "US",
-      "region": "California"
+      "region": "ME"
     },
     "profiles": [
-      {}
+      {
+        "network": "GitHub",
+        "username": "mingikang31",
+        "url": "https://github.com/mingikang31"
+      }
     ]
   },
   "work": [
     {
-      "name": "Computational Imaging Group, Washington University in St. Louis",
-      "position": "Summer Research Fellow",
-      "startDate": "2025-06",
-      "endDate": "2025-08",
-      "summary": "Conducted research on qMRI reconstruction using deep learning techniques with the Computational Imaging Group (CIG) at Washington University in St. Louis.",
-      "highlights": [
-        "PyTorch", "U-Net", "Attention-U-Net", "Computational Imaging"
-      ]
-    },
-    {
-      "name": "Farias, Bowdoin College",
-      "position": "Research Assistant",
-      "startDate": "2025-01",
+      "name": "Independent Deep Learning Research Group",
+      "position": "Undergraduate Research Assistant (Advisor: Prof Jeova Farias)",
+      "startDate": "2025-08",
       "endDate": "Present",
-      "summary": "ConvNN-Attention: Convolutional Nearest Neighbor Attention for Transformers",
+      "summary": "Developed ZiLU activation function that generalizes ReLU, GELU, and SiLU with learnable parameters for fine-grained control.",
       "highlights": [
-        "PyTorch", "KNN", "CNN", "Computer Vision", "Deep Learning"
-      ] 
-    },
-    {
-      "name": "Ungated Research, Bowdoin College",
-      "position": "Research Assistant",
-      "startDate": "2024-04",
-      "endDate": "2025-08",
-      "url": "https://ungated.research.bowdoin.edu/",
-      "summary": "Public platform for working papers from leading economic journals.",
-      "highlights": [
-        "React.js",
-        "Node.js",
-        "JavaScript",
-        "CSS",
-        "Flask"
+        "Implemented modular GPT2 architecture allowing plug-and-play activation function swapping, training on OpenWebText.",
+        "Demonstrated 1-2% improvements on image classification on CIFAR-10/100 with VGG19 and ResNet34 compared to baseline activations."
       ]
     },
     {
-      "name": "Computer Science Department, Bowdoin College",
-      "position": "Christenfeld Research Fellow",
-      "startDate": "2024-05",
-      "endDate": "2024-08",
-      "summary": "ConvNN: Convolutional Nearest Neighbor for Neural Networks",
+      "name": "Senior Honors Thesis in Computer Science",
+      "position": "Honors Candidate (Advisor: Prof Jeova Farias)",
+      "startDate": "2025-08",
+      "endDate": "Present",
+      "summary": "Finalizing ConvNN, a unified framework bridging convolution and attention through k-nearest neighbor selection (Paper Under Review).",
       "highlights": [
-        "PyTorch", "KNN", "CNN", "Computer Vision", "Deep Learning"
+        "Architected hybrid branching layers combining spatial (Conv2d) and feature-based (ConvNN) aggregation, achieving 4-8% accuracy improvements.",
+        "Demonstrated effective and robust performance across CNN and Transformer through systematic ablation studies on neighbor selection strategies."
+      ]
+    },
+    {
+      "name": "Computational Imaging Group, Washington University in St. Louis",
+      "position": "McKelvey Summer Engineering Fellow (Advisor: Prof Ulugbek S. Kamilov)",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Redesigned deep unfolding U-Net architecture for parallel qMRI reconstruction, achieving 4x parameter reduction while maintaining reconstruction quality.",
+      "highlights": [
+        "Maintained 37 dB PSNR, 0.923 SSIM on 4x accelerated scans.",
+        "Developed normalization techniques (ACS region-specific and coil-instance) for undersampled k-space preprocessing, validated on patient dataset."
+      ]
+    },
+    {
+      "name": "Independent Deep Learning Research Group",
+      "position": "Undergraduate Research Assistant (Advisor: Prof Jeova Farias)",
+      "startDate": "2025-01",
+      "endDate": "2025-05",
+      "summary": "Developed Convolutional Nearest Neighbor Attention (ConvNN-Attention), reducing computational cost by 18% (GFLOPS) with accuracy improvement (2.4%).",
+      "highlights": [
+        "Efficient attention mechanism using hard k-NN and convolutional aggregation.",
+        "Implemented modular PyTorch layers compatible with standard Transformer and Vision Transformer architectures."
+      ]
+    },
+    {
+      "name": "Christenfeld Summer Research Fellowship",
+      "position": "Research Fellow (Advisor: Prof Jeova Farias)",
+      "startDate": "2024-01",
+      "endDate": "2024-08",
+      "summary": "Developed Convolutional Nearest Neighbors (ConvNN) algorithm integrating norm-based k-NN pixel selection into standard convolutional operations.",
+      "highlights": [
+        "Built modular PyTorch implementation (1D/2D) with configurable sampling strategies (random, spatial), pixel-shuffling, and positional encoding."
       ]
     },
     {
       "name": "Lexicon Lab, Bowdoin College",
-      "position": "Research Assistant",
+      "position": "Undergraduate Research Assistant (Advisor: Prof Abhilasha Kumar)",
       "startDate": "2022-12",
       "endDate": "2024-05",
-      "summary": "Investigated semantic, phonological, and frequency-based influences on memory search in individuals with cochlear implants and normal hearing.",
+      "summary": "Investigated lexical retrieval processes in prelingually deaf cochlear implant users through computational cognitive modeling.",
       "highlights": [
-        "Pandas",
-        "Numpy",
-        "Scikit-learn",
-        "Matplotlib"
+        "Contributed to published CogSci 2024 conference proceedings paper (second author).",
+        "Extended Python package 'Forager' with joint semantic embeddings (word2vec, speech2vec) for quantitative analysis."
       ]
     },
     {
       "name": "Bowdoin College Baldwin Center for Learning and Teaching",
-      "position": "Quantitative Reasoning Tutor",
+      "position": "Quantitative Tutor",
       "startDate": "2025-08",
       "endDate": "Present",
-      "summary": "",
-      "highlights": ["Mathematics", "Statistics", "Computer Science", "Economics"]
-    }, 
-    {
-      "name": "Computer Science Department, Bowdoin College",
-      "position": " Learning Assistant (LA) for CSCI 1101: Introduction to Computer Science",
-      "startDate": "2025-01",
-      "endDate": "Present",
-      "summary": "Serving as Learning Assistant (LA) for CSCI 1101: Introduction to Computer Science at Bowdoin College, assisting students in understanding fundamental programming concepts and problem-solving techniques.",
-      "highlights": ["Python", "OOP"]
-    },
-    {
-      "name": "Mathematics Department, Bowdoin College",
-      "position": " Learning Assistant (LA) for MATH 1300: Introduction to Statistics",
-      "startDate": "2025-01",
-      "endDate": "Present",
-      "summary": "Serving as Learning Assistant (LA) for MATH 1300: Introduction to Statistics at Bowdoin College, assisting students in understanding fundamental statistics concepts and data analysis techniques.",
+      "summary": "Provide one-on-one tutoring in computer science, mathematics, and economics.",
       "highlights": [
-        "R",
-        "Statistics"
+        "Subjects: Algorithms, AI, Linear Algebra, Probability, Statistics, Micro/Macroeconomics.",
+        "Support students in debugging code, understanding theoretical concepts, and developing problem solving strategies."
       ]
     },
     {
-      "name": "Bowdoin College Career Exploration and Development, Bowdoin College",
-      "position": "Sophomore Bootcamp Leader",
-      "startDate": "2025-01",
-      "summary": "Advise sophomore college students on career development through workshops and bootcamps.",
+      "name": "Bowdoin College Mathematics Department",
+      "position": "Learning Assistant (Teaching Assistant) for Statistics and Data Science",
+      "startDate": "2025-08",
+      "endDate": "Present",
+      "summary": "Conduct weekly learning assistant hours supporting 20+ students with R programming and statistical analysis.",
       "highlights": [
-        "Career Development", 
-        "Interview Preparation",
-        "Resume Building", 
-        "Networking Skills"
+        "Guide students through applied projects involving real-world datasets, emphasizing statistical thinking and reproducible analysis."
+      ]
+    },
+    {
+      "name": "Bowdoin College Computer Science Department",
+      "position": "Learning Assistant (Teaching Assistant) for Intro to Computer Science",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "summary": "Lead weekly learning assistant hours for 40+ students covering Python fundamentals and object-oriented programming.",
+      "highlights": [
+        "Mentor students on debugging techniques, code organization, and developer best practices."
+      ]
+    },
+    {
+      "name": "Bowdoin College Career Exploration and Development Group",
+      "position": "Sophomore Bootcamp Leader & Pod Leader",
+      "startDate": "2025-01",
+      "endDate": "2026-01",
+      "summary": "Design and deliver workshops on career development for 400+ sophomores.",
+      "highlights": [
+        "Train and manage a team of 7 senior mentors, overseeing their preparation to deliver specialized workshops.",
+        "Mentored 5 student teams in inaugural Sophomore Bootcamp Hackathon on full-stack development."
       ]
     }
   ],
   "education": [
     {
-      "institution": "Aquincum Institute of Technology, Budapest, Hungary",
-      "location": "Budapest, Hungary",
-      "url": "https://cs.ait-budapest.com/",
-      "area": "Computer Science",
-      "studyType": "Fall Abroad Program",
-      "startDate": "2024-08", 
-      "endDate": "2024-12", 
+      "institution": "Bowdoin College, ME",
+      "location": "Brunswick, ME",
+      "url": "https://www.bowdoin.edu/",
+      "area": "Computer Science, Minor in Mathematics",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2022-08",
+      "endDate": "Present",
+      "score": "3.67/4.00",
       "courses": [
-        "Cryptography", 
-        "Mobile Software Engineering", 
-        "Data Science"
+        "Deep Learning for Computer Vision",
+        "Operating Systems",
+        "Artificial Intelligence",
+        "Computer Systems",
+        "Algorithms",
+        "Data Structures",
+        "Data Science",
+        "Computational Game Theory",
+        "Linear Algebra",
+        "Multivariable Calculus",
+        "Probability",
+        "Statistics",
+        "Advanced Probability and Statistics"
       ]
     },
     {
-      "institution": "Bowdoin College, Maine, USA",
-      "location": "Brunswick, Maine, USA",
-      "url": "https://www.bowdoin.edu/",
-      "area": "Computer Science and Mathematics",
-      "studyType": "Undergraduate",
-      "startDate": "2022-08-30",
-      "endDate": "Present",
-      "score": "10",
-      "courses": [
-        "Artificial Intelligence",
-        "Computational Game Theory",
-        "Computer Systems",
-        "Software Engineering",
-        "Data Structures",
-        "Algorithms",
-        "Computational Creativity",
-        "Probability",
-        "Statistics",
-        "Mathematical Reasoning",
-        "Linear Algebra",
-        "Multivariable Calculus",
-        "Advanced Topics in Probability and Statistics"
-      ]
+      "institution": "Aquincum Institute of Technology",
+      "location": "Budapest, Hungary",
+      "url": "https://www.ait-budapest.com/",
+      "area": "Computer Science",
+      "studyType": "Study Abroad Semester",
+      "startDate": "2024-08",
+      "endDate": "2024-12",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Fall Research Award",
-      "date": "2025-10",
-      "awarder": "Bowdoin College",
-      "summary": "Awarded to support honors thesis research in computer vision and deep learning."
+      "title": "CRA Outstanding Undergraduate Researcher, Honorable Mention",
+      "date": "2025-12",
+      "awarder": "Computing Research Association",
+      "summary": "Prestigious honor recognizes undergraduate students at North American colleges and universities who demonstrate exceptional potential in computing research."
     },
     {
-      "title": "Best Poster Presentation in the McKelvey Engineering Research Symposium",
+      "title": "John L. Roberts Fall Research Award ($2,463)",
+      "date": "2025-10",
+      "awarder": "Bowdoin College",
+      "summary": "Awarded for senior honors project on Convolutional Nearest Neighbors & Convolutional Nearest Neighbors Attention."
+    },
+    {
+      "title": "Best Poster Presentation in the McKelvey Engineering Summer Research ($100)",
       "date": "2025-07",
-      "awarder": "Washington University in St. Louis - McKelvey School of Engineering",
-      "summary": "Awarded to the best poster presentation in the McKelvey Engineering Research Symposium for research in computational imaging."
-    }, 
+      "awarder": "Washington University in St. Louis",
+      "summary": "Awarded for excellence in summer research presentation."
+    },
     {
-      "title": "McKelvey Engineering Summer Research Fellowship",
+      "title": "McKelvey Engineering Summer Research Fellowship ($7,200)",
       "date": "2025-05",
-      "awarder": "Washington University in St. Louis - McKelvey School of Engineering",
-      "summary": "Awarded to conduct 10 week research with the Computational Imaging Group (CIG) at Washington University in St. Louis."
-    }, 
+      "awarder": "Washington University in St. Louis",
+      "summary": "Awarded to conduct 10-week full time research with the Computational Imaging Group."
+    },
     {
-      "title": "Allen B. Tucker Computer Science Research Prize",
+      "title": "Allen B. Tucker Computer Science Research Prize ($50)",
       "date": "2025-05",
       "awarder": "Bowdoin College",
       "summary": "Awarded to a computer science student for excellence in summer research."
     },
     {
-      "title": "CRA Undergraduate Award",
+      "title": "CRA Undergraduate Award ($4,000)",
       "date": "2025-04",
       "awarder": "Last Mile Education",
-      "summary": "Awarded for supplemental funding for summer research at Washington University in St. Louis."
+      "summary": "Awarded for supplemental assistance for summer research in computer science at Washington University in St. Louis."
     },
     {
-      "title": "NYC STEM Award",
+      "title": "NYC Stem Award ($1,500)",
       "date": "2025-03",
       "awarder": "Last Mile Education",
-      "summary": "Awarded funds for new computer device."
-    }, 
+      "summary": "Awarded merit-based grant for technical equipment and research support."
+    },
     {
-      "title": "Google AI Award",
+      "title": "Google AI 2024 Award ($595)",
       "date": "2025-01",
       "awarder": "Last Mile Education",
-      "summary": "Awarded funding to support 2025 research for ConvNN: Convolutional Nearest Neighbor."
-    }, 
+      "summary": "Awarded for semester research, building on prior work from Bowdoin College Christenfeld Summer Research Fellowship."
+    },
     {
-      "title": "Christenfeld Summer Research Fellowship",
+      "title": "Christenfeld Summer Research Fellowship ($4,800)",
       "date": "2024-04",
       "awarder": "Bowdoin College",
-      "summary": "Awarded to conduct 8 week research on computer vision and deep learning."
-    }, 
+      "summary": "Awarded to conduct 8-week full time research in computer vision and deep learning under faculty mentorship."
+    },
     {
-      "title": "NSF Student Faculty Research Grant Fellowship",
+      "title": "NSF Student Faculty Research Fellowship ($1,800)",
       "date": "2024-01",
       "awarder": "Bowdoin College, National Science Foundation",
-      "summary": "Awarded for cognitive science research focused on modeling search within the mental lexicon, involving the development and implementation of experiments and models related to memory search and retrieval under NSF-funded faculty mentorship."
-    }, 
+      "summary": "Awarded for computational cognitive science research focused on modeling search and retrieval within the mental lexicon."
+    },
     {
       "title": "QuestBridge National College Match Finalist",
       "date": "2021-09",
       "awarder": "QuestBridge",
-      "summary": "Recognized as a finalist for the QuestBridge National College Match."
+      "summary": "Recognized as a finalist for the QuestBridge program, which connects high-achieving students from low-income, first-generation backgrounds with full scholarships to top colleges."
     }
   ],
   "publications": [
     {
+      "name": "ZiLU Activation Function for Vision and Language Models",
+      "publisher": "In Preparation",
+      "publicationDate": "2025",
+      "summary": "Mingi Kang, Zai Yang, Jeová Farias Sales Rocha Neto"
+    },
+    {
+      "name": "Attention Via Convolutional Nearest Neighbors",
+      "publisher": "Under Review",
+      "publicationDate": "2025",
+      "url": "https://arxiv.org/abs/2511.14137",
+      "summary": "Mingi Kang, Jeová Farias Sales Rocha Neto. arXiv preprint arXiv:2511.14137"
+    },
+    {
+      "name": "Parallel qMRI Reconstruction from 4x Accelerated Acquisitions",
+      "publisher": "Preprint",
+      "publicationDate": "2025",
+      "url": "https://arxiv.org/abs/2511.18232",
+      "summary": "Mingi Kang. arXiv preprint arXiv:2511.18232"
+    },
+    {
       "name": "Structures and process-level lexical interactions in memory search: A case study of individuals with cochlear implants and normal hearing",
-      "publisher": "In Proceedings of the 46th Annual Meeting of the Cognitive Science Society",
-      "publicationDate": "2024-04",
+      "publisher": "CogSci 2024. Proceedings of the 46th Annual Meeting of the Cognitive Science Society",
+      "publicationDate": "2024",
       "url": "https://escholarship.org/uc/item/7vn9q9hh",
-      "summary": "Searching through memory is mediated by complex interactions between the underlying mental lexicon and the processes that operate on this lexicon. However, these interactions are difficult to study due to the effortless manner in which neurotypical individuals perform cognitive tasks."
+      "summary": "Abhilasha A. Kumar, Mingi Kang, William G. Kronenberger, Michael N. Jones, David B. Pisoni"
     }
   ],
   "skills": [
@@ -235,70 +271,81 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Python",
+        "R",
         "Java",
-        "R", 
-        "JavaScript",
-        "TypeScript",
-        "Kotlin",
+        "C",
         "SQL"
       ]
     },
     {
-      "name": "Machine/Deep Learning & Data Science",
+      "name": "ML & DL",
       "icon": "fa-solid fa-cubes",
       "keywords": [
         "PyTorch",
         "TensorFlow",
         "Keras",
-        "Numpy", 
-        "Pandas", 
-        "Scikit-learn",
-        "Matplotlib",
+        "Scikit-Learn",
+        "NumPy",
+        "Pandas",
+        "SciPy",
         "OpenCV"
       ]
     },
     {
-      "name": "Tools and Platforms",
+      "name": "Visualization",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Matplotlib",
+        "Seaborn",
+        "ggplot2"
+      ]
+    },
+    {
+      "name": "Developer Tools",
       "icon": "fa-solid fa-toolbox",
       "keywords": [
         "Git",
         "GitHub",
-        "Docker",
-        "AWS",
-        "Jupyter Notebooks",
-        "Google Colab",
-        "Visual Studio Code"
+        "Bash",
+        "Overleaf/LaTeX",
+        "Markdown"
+      ]
+    },
+    {
+      "name": "HPC",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Slurm (sbatch)",
+        "IBM LSF (bsub)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Korean",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Native",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Korean",
+      "fluency": "Native",
       "icon": ""
-    }, 
+    },
     {
       "language": "German",
-      "fluency": "Intermediate",
+      "fluency": "Conversational",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Computer Science",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
+      "icon": "fa-solid fa-microscope",
       "keywords": [
         "Computer Vision",
         "Deep Learning",
-        "Machine Learning",
-        "Artificial Intelligence",
-        "Natural Language Processing", 
-        "Computational Imaging"
+        "Computational Imaging",
+        "Cognitive Science"
       ]
     }
   ],
@@ -323,19 +370,42 @@
     {
       "name": "Polar Shuttle",
       "summary": "PolarShuttle is a mobile application designed to track real-time shuffle schedulers specifically for Bowdoin College's shuttle service. ",
-      "highlights": ["Kotlin", "Hilt", "ORM", "ROOM", "Google Maps API", "ViewModel", "Jetpack Compose", "Firebase", "Coroutines", "Android Studio"],
+      "highlights": [
+        "Kotlin",
+        "Hilt",
+        "ORM",
+        "ROOM",
+        "Google Maps API",
+        "ViewModel",
+        "Jetpack Compose",
+        "Firebase",
+        "Coroutines",
+        "Android Studio"
+      ],
       "url": "https://github.com/mingikang31/PolarShuttle"
     },
     {
       "name": "SiFT-v1.0",
       "summary": "SiFT: Simple File Transfer is a secure file transfer system designed to allow clients to perform file operations on a server remotely.",
-      "highlights": ["Cryptography", "Key-Pair Generation", "RSA Encryption", "Python"],
+      "highlights": [
+        "Cryptography",
+        "Key-Pair Generation",
+        "RSA Encryption",
+        "Python"
+      ],
       "url": "https://github.com/mingikang31/SiFT-v1.0"
     },
     {
       "name": "MealMessenger",
       "summary": "MealMessenger is a service that sends daily Bowdoin dining hall menus via SMS to students.",
-      "highlights": ["Selenium", "BeautifulSoup", "Twilio API", "Python", "Google Gemini", "Web Scraping"],
+      "highlights": [
+        "Selenium",
+        "BeautifulSoup",
+        "Twilio API",
+        "Python",
+        "Google Gemini",
+        "Web Scraping"
+      ],
       "url": "https://github.com/mingikang31/MealMessenger"
     }
   ]
