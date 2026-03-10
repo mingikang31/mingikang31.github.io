@@ -5,4 +5,4 @@ inline: True
 related_posts: false
 ---
 
-Featured on Bowdoin College's News for senior honors project: <a href="https://www.bowdoin.edu/news/2025/11/mingi-kang-26-advancing-computers-ability-to-see-and-understand-our-world.html" target="_blank">here</a>.
+Featured in <a href="https://www.bowdoin.edu/news/2025/11/mingi-kang-26-advancing-computers-ability-to-see-and-understand-our-world.html" target="_blank">Bowdoin College News</a> for my senior honors project.

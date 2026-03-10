@@ -5,4 +5,4 @@ inline: True
 related_posts: false
 ---
 
-Paper on Attention Via Convolutional Nearest Neighbors (ConvNN) is now available on arXiv: <a href="https://arxiv.org/abs/2511.14137" target="_blank">here</a>.
+*Attention Via Convolutional Nearest Neighbors (ConvNN)* is now available on arXiv: <a href="https://arxiv.org/abs/2511.14137" target="_blank">arXiv:2511.14137</a>.

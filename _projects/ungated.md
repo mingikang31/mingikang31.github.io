@@ -3,7 +3,7 @@ layout: page
 title: Ungated Research
 description: Public Web Platform for Economics Working Papers
 img: assets/img/ungated/icon.png
-importance: 5
+importance: 6
 category: Research Projects
 related_publications: False
 ---

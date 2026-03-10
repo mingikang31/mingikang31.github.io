@@ -3,7 +3,7 @@ layout: page
 title: research
 permalink: /research/
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [Research Projects, Writing Samples]
 horizontal: false
 ---

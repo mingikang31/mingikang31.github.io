@@ -1,10 +1,9 @@
 ---
-layout: cv
+layout: none
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 6
-cv_pdf: CV.pdf 
-toc:
-  sidebar: left
+redirect_to: /assets/pdf/CV.pdf
 ---
+<meta http-equiv="refresh" content="0; url=/assets/pdf/CV.pdf">

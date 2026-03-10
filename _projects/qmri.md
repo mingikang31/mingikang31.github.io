@@ -3,18 +3,32 @@ layout: page
 title: Parallel qMRI Reconstruction
 description: Parallel qMRI Reconstruction from 4x Accelerated Acquisitions
 img: assets/img/qmri/icon.png
-importance: 3
+importance: 4
 category: Research Projects
-related_publications: False
+related_publications: false
 ---
 ### TL;DR
 This project enhances the SPICER framework by applying a supervised learning approach to clinical qMRI datasets from Washington University School of Medicine. By redesigning the original Deep Unfolding architecture into streamlined, non-cascading U-Net and Attention U-Net models with automatic coil sensitivity estimation, we achieved a 4x reduction in parameters. Furthermore, we developed novel normalization techniques (ACS region-specific and coil-instance) for under-sampled k-space data, resulting in high-fidelity reconstructions with 37 dB PSNR and 0.923 SSIM from 4x accelerated acquisitions.
 
 ### Paper
-The paper on **Parallel qMRI Reconstruction from 4x Accelerated Acquisitions** is available on arXiv: <a href="https://arxiv.org/abs/2511.18232" target="_blank">here</a>.
+**Parallel qMRI Reconstruction from 4x Accelerated Acquisitions** \\
+*Mingi Kang* \\
+Washington University in St. Louis, Bowdoin College
+
+Available on arXiv: [2511.18232](https://arxiv.org/abs/2511.18232)
+
+### Citation 
+```bibtex
+@article{kang2025parallel,
+  title={Parallel qMRI Reconstruction from 4x Accelerated Acquisitions},
+  author={Kang, Mingi},
+  journal={arXiv preprint arXiv:2511.18232},
+  year={2025}
+}
+```
 
 ### Presentation & Poster
-Presented at McKelvey School of Engineering Poster Palooza and Washington University Summer Research Symposium on July 2025. Awarded Best Poster Presentation at Poster Palooza. 
+Presented at McKelvey School of Engineering Poster Palooza and Washington University Summer Research Symposium on July 2025. Awarded **Best Poster Presentation** at Poster Palooza. 
 
 <div class="row justify-content-sm-center">
     <iframe src="/assets/pdf/qMRI-poster.pdf" width="75%" height="580px"></iframe>

@@ -5,4 +5,4 @@ inline: True
 related_posts: false
 ---
 
-Selected as Honorable Mention for 2025-2026 CRA Outstanding Undergraduate Researcher Award!
+Selected as Honorable Mention for 2025 - 2026 <a href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/" target="_blank">CRA Outstanding Undergraduate Researcher Award</a>!
