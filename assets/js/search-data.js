@@ -9,26 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-research",
+  },{id: "nav-research",
           title: "research",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-repos",
-          title: "repos",
-          description: "",
+        },{id: "nav-publications",
+          title: "publications",
+          description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-news",
           title: "news",
@@ -402,17 +395,20 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-fall-research-award-from-bowdoin-college-for-fall-2025-semester-funded-by-john-l-roberts-fund",
           title: 'Awarded Fall Research Award from Bowdoin College for Fall 2025 semester funded by...',
           description: "",
-          section: "News",},{id: "news-paper-on-parallel-qmri-reconstruction-from-4x-accelerated-acquisitions-is-now-available-on-arxiv-here",
-          title: 'Paper on Parallel qMRI Reconstruction from 4x Accelerated Acquisitions is now available on...',
+          section: "News",},{id: "news-parallel-qmri-reconstruction-from-4x-accelerated-acquisitions-is-now-available-on-arxiv-arxiv-2511-18232",
+          title: 'Parallel qMRI Reconstruction from 4x Accelerated Acquisitions is now available on arXiv: arXiv:2511.18232....',
           description: "",
-          section: "News",},{id: "news-paper-on-attention-via-convolutional-nearest-neighbors-convnn-is-now-available-on-arxiv-here",
-          title: 'Paper on Attention Via Convolutional Nearest Neighbors (ConvNN) is now available on arXiv:...',
+          section: "News",},{id: "news-attention-via-convolutional-nearest-neighbors-convnn-is-now-available-on-arxiv-arxiv-2511-14137",
+          title: 'Attention Via Convolutional Nearest Neighbors (ConvNN) is now available on arXiv: arXiv:2511.14137.',
           description: "",
-          section: "News",},{id: "news-featured-on-bowdoin-college-s-news-for-senior-honors-project-here",
-          title: 'Featured on Bowdoin College’s News for senior honors project: here.',
+          section: "News",},{id: "news-featured-in-bowdoin-college-news-for-my-senior-honors-project",
+          title: 'Featured in Bowdoin College News for my senior honors project.',
           description: "",
           section: "News",},{id: "news-selected-as-honorable-mention-for-2025-2026-cra-outstanding-undergraduate-researcher-award",
-          title: 'Selected as Honorable Mention for 2025-2026 CRA Outstanding Undergraduate Researcher Award!',
+          title: 'Selected as Honorable Mention for 2025 - 2026 CRA Outstanding Undergraduate Researcher Award!...',
+          description: "",
+          section: "News",},{id: "news-iglu-the-integrated-gaussian-linear-unit-is-now-available-on-arxiv-arxiv-2603-06861",
+          title: 'IGLU: The Integrated Gaussian Linear Unit is now available on arXiv: arXiv:2603.06861.',
           description: "",
           section: "News",},{id: "projects-cochlear-project",
           title: 'Cochlear Project',
@@ -421,14 +417,19 @@ ninja.data = [{
               window.location.href = "/projects/cochlear/";
             },},{id: "projects-convnn-attention",
           title: 'ConvNN-Attention',
-          description: "Convolutional Nearest Neighbor Attention (ConvNN-Attention) for Transformers",
+          description: "Unified Convolution-Attention operation for Vision Transformers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn-attn/";
-            },},{id: "projects-convnn",
-          title: 'ConvNN',
-          description: "Convolutional Nearest Neighbor (ConvNN) for Neural Networks",
+            },},{id: "projects-convolutional-nearest-neighbors",
+          title: 'Convolutional Nearest Neighbors',
+          description: "Unifying Convolution and Attention through k-NN",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn/";
+            },},{id: "projects-iglu",
+          title: 'IGLU',
+          description: "Integrated Gaussian Linear Unit",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/iglu/";
             },},{id: "projects-nsf-grfp-statements",
           title: 'NSF GRFP Statements',
           description: "Research Plan and Personal Statement for NSF Graduate Research Fellowship Program (GRFP) 2025",
