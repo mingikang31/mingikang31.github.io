@@ -404,11 +404,14 @@ ninja.data = [{
           section: "News",},{id: "news-featured-in-bowdoin-college-news-for-my-senior-honors-project",
           title: 'Featured in Bowdoin College News for my senior honors project.',
           description: "",
-          section: "News",},{id: "news-selected-as-honorable-mention-for-2025-2026-cra-outstanding-undergraduate-researcher-award",
-          title: 'Selected as Honorable Mention for 2025 - 2026 CRA Outstanding Undergraduate Researcher Award!...',
+          section: "News",},{id: "news-selected-as-honorable-mention-for-2026-cra-outstanding-undergraduate-researcher-award",
+          title: 'Selected as Honorable Mention for 2026 CRA Outstanding Undergraduate Researcher Award!',
           description: "",
           section: "News",},{id: "news-iglu-the-integrated-gaussian-linear-unit-is-now-available-on-arxiv-arxiv-2603-06861",
           title: 'IGLU: The Integrated Gaussian Linear Unit is now available on arXiv: arXiv:2603.06861.',
+          description: "",
+          section: "News",},{id: "news-awarded-ai-grant-from-the-hastings-initiative-for-ai-and-humanity-at-bowdoin-college-to-support-advanced-gpu-computing-training-to-extend-convolutional-nearest-neighbors-convnn-to-cuda-c-triton-for-faster-inference-and-training",
+          title: 'Awarded AI Grant from the Hastings Initiative for AI and Humanity at Bowdoin...',
           description: "",
           section: "News",},{id: "projects-cochlear-project",
           title: 'Cochlear Project',
@@ -465,6 +468,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/mingi-kang-40bb61254", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0006-0912-6568", "_blank");
         },
       },{
         id: 'social-spotify',
