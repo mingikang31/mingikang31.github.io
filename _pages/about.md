@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 nav_order: 1
 subtitle: CS + Math Senior @ <a href="https://www.bowdoin.edu/">Bowdoin College</a>
@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>mkang2[at]bowdoin[dot]edu</p>
+    <p>mingikang31[at]gmail[dot]com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

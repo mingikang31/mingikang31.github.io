@@ -1,10 +1,12 @@
 ---
 layout: page
-title: research
+title: Projects
+description: A collection of research projects, personal projects, and research-related fun stuff.
+img: assets/img/research/research.png
 permalink: /research/
 nav: true
 nav_order: 2
-display_categories: [Research Projects, Writing Samples]
+display_categories: [Research Projects, Personal Projects, Research-Related Fun Stuff]
 horizontal: false
 ---
 
