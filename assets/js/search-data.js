@@ -4,34 +4,34 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
-          title: "research",
-          description: "",
+  },{id: "nav-projects",
+          title: "Projects",
+          description: "A collection of research projects, personal projects, and research-related fun stuff.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order.",
+          title: "Publications",
+          description: "Publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-news",
-          title: "news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -413,6 +413,9 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-ai-grant-from-the-hastings-initiative-for-ai-and-humanity-at-bowdoin-college-to-support-advanced-gpu-computing-training-to-extend-convolutional-nearest-neighbors-convnn-to-cuda-c-triton-for-faster-inference-and-training",
           title: 'Awarded AI Grant from the Hastings Initiative for AI and Humanity at Bowdoin...',
           description: "",
+          section: "News",},{id: "news-awarded-the-computer-science-senior-year-prize-by-the-department-of-computer-science-at-bowdoin-college-for-achieving-the-highest-distinction-in-the-major-program-in-computer-science",
+          title: 'Awarded the Computer Science Senior-Year Prize by the Department of Computer Science at...',
+          description: "",
           section: "News",},{id: "projects-cochlear-project",
           title: 'Cochlear Project',
           description: "Structure and Process-Level Lexical Interactions in Memory Search",
@@ -433,11 +436,6 @@ ninja.data = [{
           description: "Integrated Gaussian Linear Unit",
           section: "Projects",handler: () => {
               window.location.href = "/projects/iglu/";
-            },},{id: "projects-nsf-grfp-statements",
-          title: 'NSF GRFP Statements',
-          description: "Research Plan and Personal Statement for NSF Graduate Research Fellowship Program (GRFP) 2025",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/nsf/";
             },},{id: "projects-parallel-qmri-reconstruction",
           title: 'Parallel qMRI Reconstruction',
           description: "Parallel qMRI Reconstruction from 4x Accelerated Acquisitions",
