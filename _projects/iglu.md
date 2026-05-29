@@ -3,7 +3,7 @@ layout: page
 title: IGLU
 description: Integrated Gaussian Linear Unit
 img: assets/img/iglu/iglu.png
-importance: 1
+importance: 2
 category: Research Projects
 related_publications: false
 ---
@@ -16,7 +16,7 @@ related_publications: false
 *Mingi Kang, Zai Yang, Jeova Farias Sales Rocha Neto* \\
 Bowdoin College
 
-Available on arXiv: [2603.06861](https://arxiv.org/abs/2603.06861)
+Proceedings of the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), 2026. [arXiv:2603.06861](https://arxiv.org/abs/2603.06861)
 
 ### Key Contributions
 - Derives IGLU as a continuous scale mixture of GELU gates under half-normal distribution

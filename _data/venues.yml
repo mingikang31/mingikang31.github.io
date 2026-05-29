@@ -15,3 +15,7 @@
 "CogSci":
   url: https://cognitivesciencesociety.org/publications/cognitive-science/
   color: "#03787f"
+
+"ECML-PKDD":
+  url: https://ecmlpkdd.org/
+  color: "#ff7f00"

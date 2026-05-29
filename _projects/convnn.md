@@ -3,7 +3,7 @@ layout: page
 title: Convolutional Nearest Neighbors
 description: Unifying Convolution and Attention through k-NN
 img: assets/img/convnn/icon.png
-importance: 2
+importance: 3
 category: Research Projects
 related_publications: false
 ---

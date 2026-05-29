@@ -3,7 +3,7 @@ layout: page
 title: Cochlear Project
 description: Structure and Process-Level Lexical Interactions in Memory Search 
 img: assets/img/cochlear/icon.png
-importance: 5
+importance: 6
 category: Research Projects
 related_publications: false
 ---

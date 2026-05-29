@@ -3,7 +3,7 @@ layout: page
 title: ConvNN-Attention
 description: Unified Convolution-Attention operation for Vision Transformers
 img: assets/img/convnn/icon-attn.png
-importance: 3
+importance: 4
 category: Research Projects
 related_publications: false
 ---

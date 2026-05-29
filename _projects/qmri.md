@@ -3,7 +3,7 @@ layout: page
 title: Parallel qMRI Reconstruction
 description: Parallel qMRI Reconstruction from 4x Accelerated Acquisitions
 img: assets/img/qmri/icon.png
-importance: 4
+importance: 5
 category: Research Projects
 related_publications: false
 ---
