@@ -416,6 +416,12 @@ ninja.data = [{
           section: "News",},{id: "news-awarded-the-computer-science-senior-year-prize-by-the-department-of-computer-science-at-bowdoin-college-for-achieving-the-highest-distinction-in-the-major-program-in-computer-science",
           title: 'Awarded the Computer Science Senior-Year Prize by the Department of Computer Science at...',
           description: "",
+          section: "News",},{id: "news-graduated-from-bowdoin-college-with-a-bachelor-of-arts-in-computer-science-with-honors-and-a-minor-in-mathematics-honors-thesis-interpolation-between-convolution-and-attention-via-k-nearest-neighbors-advisor-professor-jeova-farias-sales-rocha-neto-thesis-pdf",
+          title: 'Graduated from Bowdoin College with a Bachelor of Arts in Computer Science with...',
+          description: "",
+          section: "News",},{id: "news-iglu-the-integrated-gaussian-linear-unit-has-been-accepted-into-the-european-conference-on-machine-learning-and-principles-and-practice-of-knowledge-discovery-in-databases-ecml-pkdd-2026",
+          title: 'IGLU: The Integrated Gaussian Linear Unit has been accepted into the European Conference...',
+          description: "",
           section: "News",},{id: "projects-cochlear-project",
           title: 'Cochlear Project',
           description: "Structure and Process-Level Lexical Interactions in Memory Search",
@@ -431,6 +437,11 @@ ninja.data = [{
           description: "Unifying Convolution and Attention through k-NN",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn/";
+            },},{id: "projects-interpolation-between-convolution-and-attention-via-k-nearest-neighbors",
+          title: 'Interpolation between Convolution and Attention via K-Nearest Neighbors',
+          description: "Undergraduate honors thesis in Computer Science at Bowdoin College",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/honors/";
             },},{id: "projects-iglu",
           title: 'IGLU',
           description: "Integrated Gaussian Linear Unit",
