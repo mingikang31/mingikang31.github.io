@@ -7,7 +7,7 @@ permalink: /research/
 nav: true
 nav_order: 2
 display_categories: [Research Projects, Personal Projects, Research-Related Fun Stuff]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

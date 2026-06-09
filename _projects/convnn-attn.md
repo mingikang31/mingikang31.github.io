@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ConvNN-Attention
+title: Convolutional Nearest Neighbor Attention
 description: Unified Convolution-Attention operation for Vision Transformers
 img: assets/img/convnn/icon-attn.png
 importance: 4
