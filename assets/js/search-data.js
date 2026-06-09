@@ -427,8 +427,8 @@ ninja.data = [{
           description: "Structure and Process-Level Lexical Interactions in Memory Search",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cochlear/";
-            },},{id: "projects-convnn-attention",
-          title: 'ConvNN-Attention',
+            },},{id: "projects-convolutional-nearest-neighbor-attention",
+          title: 'Convolutional Nearest Neighbor Attention',
           description: "Unified Convolution-Attention operation for Vision Transformers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/convnn-attn/";
