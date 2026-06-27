@@ -30,9 +30,9 @@ Hi! I am a recent grad from Bowdoin College with a major in Computer Science and
 
 My research areas are in efficient deep learning and neural architecture design. I am particularly passionate about designing deep learning algorithms and architectures that prioritize both efficiency and interpretability. Some of my recent works include: 
 
-- Convolutional Linear Attention
-- Convolutional Nearest Neighbor Attention
+- Convolutional Linear Attention (CLA)
+- Convolutional Nearest Neighbors (ConvNN)
 - Accelerated MRI Reconstruction using Supervised Learning
-- Investigating Novel Activation Functions
+- Integrated Gaussian Linear Unit (IGLU) Activation Function
 
 Outside of research, I enjoy snowboarding, basketball, cooking, and exploring new cafes. I am also a proud brother to a medical student sister at USC Keck and a dedicated fan of the St. Louis Cardinals and LA Dodgers. Please feel free to reach out if you would like to connect!
